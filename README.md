@@ -1,11 +1,9 @@
 # 👋 Hi — I'm Ayman Singh
-**Final-year B.Tech (CSE) — IIT Jammu** · ML & Computer Vision · eBPF & Systems · Open to internships
+**Final-year B.Tech (CSE) — IIT Jammu** · ML & Computer Vision · eBPF & Systems · Open to Full time roles
 
 I build end-to-end ML systems and practical tools that solve real problems — from experimentation and model training to small production demos and systems-level tooling. I enjoy computer vision, applied machine learning, and low-level networking (eBPF). Currently focused on improving model reproducibility, concise demos, and clear reproducible READMEs for projects.
 
 ---
-
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=Ayman-Singh&show_icons=true&count_private=true&theme=dark" alt="github stats" />
 
 ## 🔭 What I work on
 - **Machine Learning & Computer Vision:** experiments, notebooks, model evaluation and simple dashboards.  
@@ -32,9 +30,9 @@ I build end-to-end ML systems and practical tools that solve real problems — f
 
 ## 🛠️ Skills
 - **Languages & Tools:** C/C++, Go, Javascript,Python, SQL, Bash, Git, Docker  
-- **ML & CV:** TensorFlow, PyTorch (notebooks), OpenCV, scikit-learn  
+- **ML & CV:** TensorFlow, PyTorch , OpenCV, scikit-learn  
 - **Systems & Networking:** eBPF, Linux, performance-minded C/C++  
-- **Web / Frontend:** Reactjs,Nextjs ,Websockets,Express
+- **Web / Frontend:** Reactjs, Nextjs, Websockets, Express
 
 ---
 
@@ -46,12 +44,12 @@ I build end-to-end ML systems and practical tools that solve real problems — f
 
 ## 🏆 Selected achievements
 - **Inter IIT Tech Meet 13.0** — placed 16 / 23 in event competitions.  
-- Shortlisted for internship opportunities (actively applying to industry internships including roles that focus on ML, systems, and backend engineering).
+- Shortlisted for internship opportunities (actively applying to industry full time roles including roles that focus on ML, AI, systems, and backend engineering).
 
 
 ---
 
 ## 📫 Get in touch
-- Best way to reach me is via my **GitHub profile**: https://github.com/Ayman-Singh  
-  (Open an issue on a repo you care about, or comment on code — I check GitHub activity first.)
+- Best ways to reach me is via my **GitHub profile**: https://github.com/Ayman-Singh  
+- **Email:** aymansingh09@gmail.com 
 
