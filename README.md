@@ -1,7 +1,7 @@
 # 👋 Hi — I'm Ayman Singh
 **Final-year B.Tech (CSE) — IIT Jammu** · ML & Computer Vision · eBPF & Systems · Open to Full time roles
 
-I build end-to-end ML systems and practical tools that solve real problems — from experimentation and model training to small production demos and systems-level tooling. I enjoy computer vision, applied machine learning, and low-level networking (eBPF). Currently focused on improving model reproducibility, concise demos, and clear reproducible READMEs for projects.
+I build end-to-end ML systems and practical tools that solve real problems — from experimentation and model training to small production demos and systems-level tooling. I enjoy computer vision, applied machine learning, and low-level networking (eBPF). 
 
 ---
 
