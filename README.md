@@ -43,9 +43,8 @@ I build end-to-end ML systems and practical tools that solve real problems — f
 ---
 
 ## 🏆 Selected achievements
-- **Inter IIT Tech Meet 13.0** — placed 16 / 23 in event competitions.  
-- Shortlisted for internship opportunities (actively applying to industry full time roles including roles that focus on ML, AI, systems, and backend engineering).
-
+- **Flipkart-Grid 7.0 (2025)** National Semi-finalist
+- **Inter IIT Tech Meet 13.0** — placed 16 / 23 in event competitions. 
 
 ---
 
