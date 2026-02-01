@@ -15,15 +15,13 @@ I build end-to-end ML systems and practical tools that solve real problems — f
 
 - **[Isolation_Forest_Anomaly_IDS](https://github.com/Ayman-Singh/Isolation_Forest_Anomaly_IDS)**  
   Anomaly detection pipeline using Isolation Forest for network telemetry. Includes preprocessing scripts, model training, and a lightweight visualization / evaluation dashboard.
+  I  would welcome some open source contributions for this project as this project has vast scope and real life application for Intruition Detection Systems
 
 - **[LOWLIGHTEN_IMAGE_ENHANCEMENT](https://github.com/Ayman-Singh/LOWLIGHTEN_IMAGE_ENHANCEMENT)**  
-  Notebooks and experiments comparing classical and learning-based low-light enhancement methods. Good for quick visual comparisons and reproducible examples.
-
-- **[C_Function_Call_Parser](https://github.com/Ayman-Singh/C_Function_Call_Parser)**  
-  C++ static parsing tool that extracts and analyzes function calls from C source — useful for static analysis and instrumentation experiments.
+    An idea i had to reimagine dark pictures of environments (dark rooms) as if they were well lighten .
 
 - **[AI-Interviewer](https://github.com/Ayman-Singh/AI-Interviewer)**  
-  Lightweight JavaScript demo for an interactive interviewer flow — nice to include as a frontend prototype.
+   a Gemini based AI internviwer with Go backend and Reactjs Frontend . I built it to create a platform for self paced Interview practice 
 
 
 ---
