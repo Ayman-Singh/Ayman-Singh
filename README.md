@@ -1,12 +1,19 @@
-<div align="center">
+<!-- Cyber Header Animation -->
+<p align="center">
+  <img src="cyber-header.svg" width="100%" alt="Cyber Header" />
+</p>
 
-<!-- Cyber Data Stream Overlay Animation -->
-<img src="./cyber-stream.svg" width="100%" alt="Cyber Data Stream" />
+<div align="center">
 
 <!-- Dynamic Typing Animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=650&lines=Hi+%E2%80%94+I'm+Ayman+Singh;Machine+Learning+Engineer;Computer+Vision+%26+Systems;Building+Production-Ready+Systems" alt="Typing Animation" />
 
 </div>
+
+<!-- Matrix Rain Animation -->
+<p align="center">
+  <img src="matrix-rain.svg" width="100%" alt="Matrix Rain" />
+</p>
 
 <div align="center">
   
@@ -14,9 +21,6 @@
  
   
 </div>
-
-<!-- Binary Rain Animation -->
-<img src="./binary-rain.svg" width="100%" alt="Binary Rain" />
 
 ---
 
@@ -27,8 +31,10 @@ Machine Learning & Computer Vision | eBPF & Systems | Open to Full-time Roles | 
 
 I build end-to-end ML systems and practical tools that solve real problems — from experimentation and model training to small production demos and systems-level tooling. I enjoy computer vision, applied machine learning, and low-level networking (eBPF).
 
-<!-- Neural Network Pulse Animation -->
-<img src="./neural-pulse.svg" width="100%" alt="Neural Network" />
+<!-- Neural Network Animation -->
+<p align="center">
+  <img src="neural-network.svg" width="100%" alt="Neural Network" />
+</p>
 
 ### What I Work On
 
