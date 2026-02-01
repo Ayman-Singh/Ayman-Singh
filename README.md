@@ -1,12 +1,9 @@
 <div align="center">
 
-<!-- Animated Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Hi%20—%20I'm%20Ayman%20Singh&fontSize=40&fontAlignY=40&color=gradient&customColorList=6,11,20" width="100%" />
-
 <!-- Dynamic Typing Animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=650&lines=Hi+%E2%80%94+I'm+Ayman+Singh;Machine+Learning+Engineer;Computer+Vision+%26+Systems;Building+Production-Ready+Systems" alt="Typing Animation" />
 
-<!-- Animated Divider -->
+<!-- Animated Line 1 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 </div>
@@ -33,6 +30,7 @@ I build end-to-end ML systems and practical tools that solve real problems — f
 - **Systems & Networking:** eBPF-based tooling, C/C++ utilities, and low-level data processing
 - **Full Stack Projects:** constantly learning new technologies and worked on AI Agentic frameworks in personal projects and internship
 
+<!-- Animated Line 2 -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <br clear="right"/>
