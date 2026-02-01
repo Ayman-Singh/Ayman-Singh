@@ -21,8 +21,9 @@ I build end-to-end ML systems and practical tools that solve real problems — f
     An idea i had to reimagine dark pictures of environments (dark rooms) as if they were well lighten .
 
 - **[AI-Interviewer](https://github.com/Ayman-Singh/AI-Interviewer)**  
-   a Gemini based AI internviwer with Go backend and Reactjs Frontend . I built it to create a platform for self paced Interview practice 
-
+   A Gemini based AI internviwer with Go backend and Reactjs Frontend . I built it to create a platform for self paced Interview practice 
+- **[Nexus-Talk](https://github.com/Ayman-Singh/nexus-talk)**
+   A whatsapp clone with Go backend and Reactjs for frontend .
 
 ---
 
