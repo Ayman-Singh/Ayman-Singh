@@ -1,5 +1,8 @@
 <div align="center">
 
+<!-- Cyber Data Stream Overlay Animation -->
+<img src="./cyber-stream.svg" width="100%" alt="Cyber Data Stream" />
+
 <!-- Dynamic Typing Animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=650&lines=Hi+%E2%80%94+I'm+Ayman+Singh;Machine+Learning+Engineer;Computer+Vision+%26+Systems;Building+Production-Ready+Systems" alt="Typing Animation" />
 
@@ -12,6 +15,9 @@
   
 </div>
 
+<!-- Binary Rain Animation -->
+<img src="./binary-rain.svg" width="100%" alt="Binary Rain" />
+
 ---
 
 ## About Me
@@ -20,6 +26,9 @@
 Machine Learning & Computer Vision | eBPF & Systems | Open to Full-time Roles | Open to Relocate to Japan
 
 I build end-to-end ML systems and practical tools that solve real problems — from experimentation and model training to small production demos and systems-level tooling. I enjoy computer vision, applied machine learning, and low-level networking (eBPF).
+
+<!-- Neural Network Pulse Animation -->
+<img src="./neural-pulse.svg" width="100%" alt="Neural Network" />
 
 ### What I Work On
 
