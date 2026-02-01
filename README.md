@@ -2,7 +2,7 @@
 
 
 <!-- Dynamic Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=650&lines=Machine+Learning+Engineer;Computer+Vision+%26+Systems;Building+Production-Ready+Systems;eBPF+%26+Low-Level+Networking" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hi+,+I'm+Ayman+Singh;Machine+Learning+Engineer;Computer+Vision+%26+Systems;Building+Production-Ready+Systems;eBPF+%26+Low-Level+Networking" alt="Typing Animation" />
 
 </div>
 
