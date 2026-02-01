@@ -1,7 +1,5 @@
 <div align="center">
 
-<!-- Animated Header with Particles -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=Hi%20—%20I'm%20Ayman%20Singh&fontSize=35&fontAlignY=35&color=gradient&customColorList=6,11,20&animation=twinkling&desc=Machine%20Learning%20|%20Computer%20Vision%20|%20Systems&descSize=18&descAlignY=55" width="100%" />
 
 <!-- Dynamic Typing Animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=650&lines=Machine+Learning+Engineer;Computer+Vision+%26+Systems;Building+Production-Ready+Systems;eBPF+%26+Low-Level+Networking" alt="Typing Animation" />
