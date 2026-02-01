@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Dynamic Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=600&lines=Hi+%E2%80%94+I'm+Ayman+Singh;Machine+Learning+Engineer;Computer+Vision+%26+Systems; Building+Production-Ready+Systems" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=605&lines=Hi+%E2%80%94+I'm+Ayman+Singh;Machine+Learning+Engineer;Computer+Vision+%26+Systems;Building+Production-Ready+Systems" alt="Typing Animation" />
 
 </div>
 
