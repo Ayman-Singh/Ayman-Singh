@@ -1,3 +1,6 @@
+<!-- Animated Header Wave -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ayman%20Singh&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32" />
+
 <div align="center">
 
 <!-- Dynamic Typing Animation -->
@@ -8,20 +11,27 @@
 <div align="center">
   
   <!-- Profile Views Counter -->
-  <img src="https://komarev.com/ghpvc/?username=Ayman-Singh&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+ 
   
 </div>
+
+<!-- Snake Animation eating contributions -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ayman-Singh/Ayman-Singh/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ayman-Singh/Ayman-Singh/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ayman-Singh/Ayman-Singh/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
 ## About Me
 
+<img align="right" alt="Neural Network" width="350" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif">
+
 **Final-year B.Tech (CSE) — IIT Jammu**  
 Machine Learning & Computer Vision | eBPF & Systems | Open to Full-time Roles | Open to Relocate to Japan
 
 I build end-to-end ML systems and practical tools that solve real problems — from experimentation and model training to small production demos and systems-level tooling. I enjoy computer vision, applied machine learning, and low-level networking (eBPF).
-
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
 ### What I Work On
 
@@ -115,7 +125,6 @@ A WhatsApp clone with Go backend and ReactJS frontend. Full-featured chat applic
 </div>
 
 ---
-
 
 ## Education & Achievements
 
