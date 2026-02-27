@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+<defs><style>
+@keyframes fall1{0%{transform:translate(0,-30px) rotate(0);opacity:0}5%{opacity:1}95%{opacity:.7}100%{transform:translate(60px,350px) rotate(720deg);opacity:0}}
+@keyframes fall2{0%{transform:translate(0,-40px) rotate(0);opacity:0}6%{opacity:.9}94%{opacity:.6}100%{transform:translate(-50px,340px) rotate(-600deg);opacity:0}}
+@keyframes fall3{0%{transform:translate(0,-20px) rotate(0);opacity:0}4%{opacity:1}96%{opacity:.7}100%{transform:translate(35px,345px) rotate(540deg);opacity:0}}
+@keyframes sway{0%,100%{transform:rotate(-.5deg)}50%{transform:rotate(.5deg)}}
+@keyframes glow{0%,100%{opacity:.3}50%{opacity:.8}}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes cursor{0%,49%{opacity:1}50%,100%{opacity:0}}
+.p1{animation:fall1 6s linear infinite}.p2{animation:fall2 8s linear infinite;animation-delay:1s}
+.p3{animation:fall3 7s linear infinite;animation-delay:2s}.p4{animation:fall1 9s linear infinite;animation-delay:3s}
+.p5{animation:fall2 5s linear infinite;animation-delay:.5s}.p6{animation:fall3 7s linear infinite;animation-delay:4s}
+.p7{animation:fall1 6s linear infinite;animation-delay:2.5s}.p8{animation:fall2 8s linear infinite;animation-delay:1.5s}
+.p9{animation:fall3 5.5s linear infinite;animation-delay:3.5s}.p10{animation:fall1 7s linear infinite;animation-delay:.8s}
+.p11{animation:fall2 6s linear infinite;animation-delay:4.5s}.p12{animation:fall3 9s linear infinite;animation-delay:1.2s}
+.tree{animation:sway 5s ease-in-out infinite;transform-origin:110px 300px}
+.gl{animation:glow 3s ease-in-out infinite}.gl2{animation-delay:1s}.gl3{animation-delay:2s}
+.st{animation:pulse 3s ease-in-out infinite}.st2{animation-delay:.6s}.st3{animation-delay:1.3s}.st4{animation-delay:2s}
+.cur{animation:cursor 1s steps(1) infinite}
+</style></defs>
+
+<!-- BG: dark with subtle purple tint -->
+<rect width="800" height="320" fill="#0D1117"/>
+<rect width="800" height="160" y="0" fill="#120B1E" opacity=".5"/>
+<rect width="800" height="160" y="160" fill="#0E0F1A" opacity=".3"/>
+
+<!-- Stars - bigger -->
+<g class="st"><rect x="300" y="20" width="4" height="4" fill="#E8E8F0" opacity=".8"/></g>
+<g class="st st2"><rect x="520" y="35" width="3" height="3" fill="#D0D0E0" opacity=".7"/></g>
+<g class="st st3"><rect x="680" y="15" width="4" height="4" fill="#E8E8F0" opacity=".6"/></g>
+<g class="st st4"><rect x="420" y="50" width="3" height="3" fill="#D0D0E0" opacity=".7"/></g>
+<g class="st"><rect x="580" y="55" width="3" height="3" fill="#E8E8F0" opacity=".5"/></g>
+<g class="st st3"><rect x="760" y="40" width="3" height="3" fill="#D0D0E0" opacity=".6"/></g>
+
+<!-- ═══ PIXEL CHERRY TREE (BIG) ═══ -->
+<g class="tree">
+<!-- TRUNK - thick, 12px blocks -->
+<rect x="96" y="270" width="12" height="30" fill="#2A1D15"/>
+<rect x="108" y="265" width="12" height="35" fill="#3D2B1F"/>
+<rect x="120" y="270" width="12" height="30" fill="#2A1D15"/>
+<rect x="96" y="248" width="12" height="26" fill="#3D2B1F"/>
+<rect x="108" y="240" width="12" height="28" fill="#2A1D15"/>
+<rect x="120" y="245" width="12" height="28" fill="#3D2B1F"/>
+<!-- Upper trunk -->
+<rect x="100" y="215" width="12" height="28" fill="#3D2B1F"/>
+<rect x="112" y="210" width="12" height="32" fill="#2A1D15"/>
+<rect x="124" y="218" width="12" height="28" fill="#3D2B1F"/>
+
+<!-- LEFT BRANCH -->
+<rect x="88" y="200" width="12" height="20" fill="#3D2B1F"/>
+<rect x="76" y="182" width="12" height="22" fill="#2A1D15"/>
+<rect x="64" y="164" width="12" height="22" fill="#3D2B1F"/>
+<rect x="52" y="148" width="12" height="20" fill="#2A1D15"/>
+<rect x="40" y="134" width="12" height="18" fill="#3D2B1F"/>
+<rect x="30" y="122" width="12" height="16" fill="#2A1D15"/>
+<!-- Left sub-branch -->
+<rect x="58" y="145" width="10" height="10" fill="#2A1D15"/>
+<rect x="48" y="132" width="10" height="16" fill="#3D2B1F"/>
+<rect x="38" y="118" width="10" height="16" fill="#2A1D15"/>
+
+<!-- RIGHT BRANCH -->
+<rect x="130" y="198" width="12" height="20" fill="#2A1D15"/>
+<rect x="142" y="180" width="12" height="22" fill="#3D2B1F"/>
+<rect x="154" y="162" width="12" height="22" fill="#2A1D15"/>
+<rect x="166" y="144" width="12" height="22" fill="#3D2B1F"/>
+<rect x="178" y="128" width="12" height="20" fill="#2A1D15"/>
+<rect x="190" y="116" width="12" height="16" fill="#3D2B1F"/>
+<!-- Right sub -->
+<rect x="160" y="152" width="10" height="10" fill="#3D2B1F"/>
+<rect x="170" y="140" width="10" height="14" fill="#2A1D15"/>
+<rect x="180" y="130" width="10" height="12" fill="#3D2B1F"/>
+
+<!-- CENTER BRANCH -->
+<rect x="106" y="190" width="12" height="26" fill="#2A1D15"/>
+<rect x="110" y="168" width="12" height="24" fill="#3D2B1F"/>
+<rect x="108" y="148" width="12" height="22" fill="#2A1D15"/>
+<rect x="104" y="130" width="12" height="20" fill="#3D2B1F"/>
+
+<!-- ═══ BLOSSOMS - BIG 10px blocks, VIBRANT ═══ -->
+<!-- LEFT CANOPY -->
+<rect x="14" y="100" width="10" height="10" fill="#FF6B8A"/>
+<rect x="24" y="94" width="10" height="10" fill="#FF87A0"/>
+<rect x="24" y="104" width="10" height="10" fill="#E8506E"/>
+<rect x="34" y="98" width="10" height="10" fill="#FF6B8A"/>
+<rect x="34" y="108" width="10" height="10" fill="#FF87A0"/>
+<rect x="14" y="110" width="10" height="10" fill="#E8506E"/>
+<rect x="44" y="96" width="10" height="10" fill="#FF6B8A"/>
+<rect x="44" y="106" width="10" height="10" fill="#FFA0B4"/>
+<rect x="28" y="86" width="10" height="10" fill="#FFA0B4"/>
+<rect x="38" y="88" width="10" height="10" fill="#FF6B8A"/>
+<rect x="18" y="90" width="10" height="10" fill="#FF87A0"/>
+<rect x="8" y="108" width="10" height="10" fill="#FF87A0"/>
+<!-- White highlights -->
+<rect x="30" y="98" width="4" height="4" fill="#FFD4DE"/>
+<rect x="40" y="102" width="4" height="4" fill="#FFD4DE"/>
+
+<!-- LEFT-MID -->
+<rect x="34" y="116" width="10" height="10" fill="#FF6B8A"/>
+<rect x="44" y="114" width="10" height="10" fill="#FF87A0"/>
+<rect x="44" y="124" width="10" height="10" fill="#E8506E"/>
+<rect x="54" y="118" width="10" height="10" fill="#FF6B8A"/>
+<rect x="54" y="128" width="10" height="10" fill="#FFA0B4"/>
+<rect x="34" y="126" width="10" height="10" fill="#FF87A0"/>
+<rect x="24" y="120" width="10" height="10" fill="#E8506E"/>
+<rect x="50" y="120" width="4" height="4" fill="#FFD4DE"/>
+
+<!-- LEFT-LOWER -->
+<rect x="40" y="140" width="10" height="10" fill="#FF87A0"/>
+<rect x="50" y="136" width="10" height="10" fill="#FF6B8A"/>
+<rect x="50" y="146" width="10" height="10" fill="#E8506E"/>
+<rect x="60" y="140" width="10" height="10" fill="#FFA0B4"/>
+<rect x="60" y="150" width="10" height="10" fill="#FF6B8A"/>
+<rect x="70" y="148" width="10" height="10" fill="#FF87A0"/>
+<rect x="30" y="144" width="10" height="10" fill="#FF6B8A"/>
+<rect x="56" y="142" width="4" height="4" fill="#FFD4DE"/>
+
+<!-- LEFT-SIDE -->
+<rect x="44" y="160" width="10" height="10" fill="#FF6B8A"/>
+<rect x="54" y="158" width="10" height="10" fill="#FF87A0"/>
+<rect x="64" y="160" width="10" height="10" fill="#E8506E"/>
+<rect x="54" y="168" width="10" height="10" fill="#FFA0B4"/>
+<rect x="74" y="164" width="10" height="10" fill="#FF6B8A"/>
+
+<!-- CENTER CANOPY -->
+<rect x="90" y="110" width="10" height="10" fill="#FF87A0"/>
+<rect x="100" y="106" width="10" height="10" fill="#FF6B8A"/>
+<rect x="110" y="108" width="10" height="10" fill="#FFA0B4"/>
+<rect x="120" y="106" width="10" height="10" fill="#FF6B8A"/>
+<rect x="130" y="110" width="10" height="10" fill="#FF87A0"/>
+<rect x="100" y="116" width="10" height="10" fill="#E8506E"/>
+<rect x="110" y="114" width="10" height="10" fill="#FF6B8A"/>
+<rect x="120" y="116" width="10" height="10" fill="#FFA0B4"/>
+<rect x="90" y="120" width="10" height="10" fill="#FF6B8A"/>
+<rect x="130" y="120" width="10" height="10" fill="#E8506E"/>
+<rect x="105" y="98" width="10" height="10" fill="#FF87A0"/>
+<rect x="115" y="96" width="10" height="10" fill="#FFA0B4"/>
+<rect x="95" y="100" width="10" height="10" fill="#E8506E"/>
+<rect x="125" y="100" width="10" height="10" fill="#FF6B8A"/>
+<!-- Highlights -->
+<rect x="108" y="110" width="4" height="4" fill="#FFD4DE"/>
+<rect x="118" y="104" width="4" height="4" fill="#FFD4DE"/>
+
+<!-- RIGHT CANOPY -->
+<rect x="155" y="100" width="10" height="10" fill="#FF6B8A"/>
+<rect x="165" y="96" width="10" height="10" fill="#FF87A0"/>
+<rect x="165" y="106" width="10" height="10" fill="#E8506E"/>
+<rect x="175" y="100" width="10" height="10" fill="#FFA0B4"/>
+<rect x="175" y="110" width="10" height="10" fill="#FF6B8A"/>
+<rect x="185" y="104" width="10" height="10" fill="#FF87A0"/>
+<rect x="185" y="114" width="10" height="10" fill="#E8506E"/>
+<rect x="195" y="108" width="10" height="10" fill="#FF6B8A"/>
+<rect x="195" y="118" width="10" height="10" fill="#FFA0B4"/>
+<rect x="155" y="110" width="10" height="10" fill="#FF87A0"/>
+<rect x="205" y="112" width="10" height="10" fill="#FF6B8A"/>
+<rect x="171" y="102" width="4" height="4" fill="#FFD4DE"/>
+<rect x="191" y="110" width="4" height="4" fill="#FFD4DE"/>
+
+<!-- RIGHT-LOWER -->
+<rect x="168" y="120" width="10" height="10" fill="#FF6B8A"/>
+<rect x="178" y="118" width="10" height="10" fill="#FF87A0"/>
+<rect x="178" y="128" width="10" height="10" fill="#E8506E"/>
+<rect x="188" y="122" width="10" height="10" fill="#FFA0B4"/>
+<rect x="198" y="126" width="10" height="10" fill="#FF6B8A"/>
+<rect x="158" y="124" width="10" height="10" fill="#FF87A0"/>
+<rect x="188" y="132" width="10" height="10" fill="#FF87A0"/>
+<rect x="174" y="124" width="4" height="4" fill="#FFD4DE"/>
+
+<!-- Scattered blossoms along branches -->
+<rect x="82" y="180" width="8" height="8" fill="#FF6B8A" opacity=".8"/>
+<rect x="72" y="170" width="8" height="8" fill="#FF87A0" opacity=".7"/>
+<rect x="140" y="172" width="8" height="8" fill="#FF6B8A" opacity=".8"/>
+<rect x="150" y="160" width="8" height="8" fill="#FF87A0" opacity=".7"/>
+<rect x="100" y="140" width="8" height="8" fill="#E8506E" opacity=".8"/>
+<rect x="118" y="136" width="8" height="8" fill="#FF87A0" opacity=".7"/>
+</g>
+
+<!-- ═══ FALLING PETALS - BIG ═══ -->
+<g class="p1"><rect x="240" y="30" width="10" height="10" fill="#FF6B8A" opacity=".8"/><rect x="244" y="34" width="4" height="4" fill="#FFA0B4"/></g>
+<g class="p2"><rect x="350" y="15" width="8" height="8" fill="#FF87A0" opacity=".7"/></g>
+<g class="p3"><rect x="460" y="45" width="10" height="10" fill="#E8506E" opacity=".75"/><rect x="464" y="49" width="4" height="4" fill="#FFD4DE"/></g>
+<g class="p4"><rect x="550" y="20" width="8" height="8" fill="#FF6B8A" opacity=".7"/></g>
+<g class="p5"><rect x="640" y="55" width="10" height="10" fill="#FF87A0" opacity=".8"/><rect x="644" y="59" width="4" height="4" fill="#FFA0B4"/></g>
+<g class="p6"><rect x="720" y="10" width="8" height="8" fill="#E8506E" opacity=".7"/></g>
+<g class="p7"><rect x="300" y="60" width="10" height="10" fill="#FF6B8A" opacity=".75"/></g>
+<g class="p8"><rect x="500" y="35" width="8" height="8" fill="#FF87A0" opacity=".7"/></g>
+<g class="p9"><rect x="180" y="50" width="10" height="10" fill="#FFA0B4" opacity=".65"/></g>
+<g class="p10"><rect x="600" y="65" width="8" height="8" fill="#FF6B8A" opacity=".7"/></g>
+<g class="p11"><rect x="750" y="40" width="10" height="10" fill="#E8506E" opacity=".75"/></g>
+<g class="p12"><rect x="400" y="70" width="8" height="8" fill="#FF87A0" opacity=".65"/></g>
+
+<!-- ═══ TEXT ═══ -->
+<text x="500" y="155" text-anchor="middle" fill="#F0F0F8" font-family="'Courier New',monospace" font-size="46" font-weight="bold" letter-spacing="6">AYMAN SINGH</text>
+
+<!-- Bright cyan glow line -->
+<rect x="300" y="170" width="400" height="2" fill="#58A6FF" opacity=".25"/>
+<g class="gl"><rect x="300" y="170" width="70" height="2" fill="#58A6FF" opacity=".7"/></g>
+<g class="gl gl2"><rect x="440" y="170" width="70" height="2" fill="#58A6FF" opacity=".7"/></g>
+<g class="gl gl3"><rect x="580" y="170" width="70" height="2" fill="#58A6FF" opacity=".7"/></g>
+
+<!-- Subtitle text -->
+<text x="500" y="194" text-anchor="middle" fill="#C9D1D9" font-family="'Courier New',monospace" font-size="15" letter-spacing="6">SOFTWARE ENGINEER</text>
+<text x="500" y="214" text-anchor="middle" fill="#8B949E" font-family="'Courier New',monospace" font-size="11" letter-spacing="4">IIT JAMMU '26</text>
+
+<!-- ═══ EDGE-ONLY PIXEL ART ═══ -->
+
+<!-- Hanging lanterns (between tree and text) -->
+<rect x="245" y="140" width="2" height="8" fill="#6B4028"/>
+<rect x="242" y="148" width="8" height="10" fill="#FF4500" class="gl gl2"/>
+<rect x="244" y="150" width="4" height="6" fill="#FF6B3A"/>
+<rect x="245" y="158" width="2" height="2" fill="#FFD700"/>
+
+<rect x="280" y="155" width="2" height="6" fill="#6B4028"/>
+<rect x="277" y="161" width="8" height="10" fill="#FF4500" class="gl"/>
+<rect x="279" y="163" width="4" height="6" fill="#FF6B3A"/>
+<rect x="280" y="171" width="2" height="2" fill="#FFD700"/>
+
+<!-- Pixel bamboo (far right) -->
+<rect x="740" y="120" width="4" height="180" fill="#2D5A27" opacity=".3"/>
+<rect x="748" y="140" width="4" height="160" fill="#3D7A37" opacity=".25"/>
+<rect x="756" y="160" width="4" height="140" fill="#2D5A27" opacity=".2"/>
+<!-- Bamboo leaves -->
+<rect x="744" y="120" width="8" height="4" fill="#4ADE80" opacity=".2"/>
+<rect x="736" y="128" width="8" height="3" fill="#3D7A37" opacity=".2"/>
+<rect x="752" y="140" width="8" height="3" fill="#4ADE80" opacity=".15"/>
+<rect x="744" y="150" width="8" height="3" fill="#3D7A37" opacity=".2"/>
+<rect x="760" y="160" width="6" height="3" fill="#4ADE80" opacity=".15"/>
+
+<!-- Bottom accent -->
+<rect x="0" y="316" width="800" height="4" fill="#161B22"/>
+<rect x="0" y="316" width="800" height="1" fill="#FF6B8A" opacity=".15"/>
+</svg>
