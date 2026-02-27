@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs><style>
+@keyframes sway{0%,100%{transform:rotate(-.8deg)}50%{transform:rotate(.8deg)}}
+@keyframes petal1{0%{transform:translate(0,0) rotate(0);opacity:0}8%{opacity:1}92%{opacity:.6}100%{transform:translate(12px,40px) rotate(360deg);opacity:0}}
+@keyframes petal2{0%{transform:translate(0,0) rotate(0);opacity:0}10%{opacity:.9}90%{opacity:.5}100%{transform:translate(-8px,35px) rotate(-300deg);opacity:0}}
+@keyframes petal3{0%{transform:translate(0,0) rotate(0);opacity:0}6%{opacity:1}94%{opacity:.7}100%{transform:translate(6px,38px) rotate(240deg);opacity:0}}
+.canopy{animation:sway 3s ease-in-out infinite;transform-origin:40px 50px}
+.fp1{animation:petal1 4s linear infinite}.fp2{animation:petal2 5s linear infinite;animation-delay:1.5s}
+.fp3{animation:petal3 3.5s linear infinite;animation-delay:3s}.fp4{animation:petal1 4.5s linear infinite;animation-delay:2s}
+.fp5{animation:petal2 3s linear infinite;animation-delay:.8s}
+</style></defs>
+
+<!-- Pot -->
+<rect x="28" y="66" width="24" height="4" fill="#8B5E3C"/>
+<rect x="30" y="62" width="20" height="4" fill="#A0704B"/>
+<rect x="30" y="66" width="20" height="6" fill="#8B5E3C"/>
+<rect x="32" y="72" width="16" height="4" fill="#7A4F32"/>
+<rect x="30" y="76" width="20" height="4" fill="#6B4028"/>
+<rect x="34" y="64" width="4" height="2" fill="#BA8860"/>
+<rect x="42" y="64" width="4" height="2" fill="#BA8860"/>
+<!-- Pot rim -->
+<rect x="28" y="60" width="24" height="2" fill="#BA8860"/>
+<!-- Soil -->
+<rect x="32" y="58" width="16" height="4" fill="#3D2B1F"/>
+<rect x="36" y="56" width="8" height="2" fill="#4A3530"/>
+
+<!-- Trunk -->
+<rect x="38" y="48" width="4" height="10" fill="#5C3A2E"/>
+<rect x="36" y="44" width="4" height="6" fill="#6B4535"/>
+<rect x="40" y="46" width="4" height="4" fill="#5C3A2E"/>
+<rect x="34" y="40" width="4" height="6" fill="#6B4535"/>
+<rect x="38" y="42" width="4" height="4" fill="#5C3A2E"/>
+<rect x="42" y="40" width="4" height="6" fill="#6B4535"/>
+<!-- Left branch -->
+<rect x="30" y="36" width="4" height="6" fill="#5C3A2E"/>
+<rect x="26" y="32" width="4" height="6" fill="#6B4535"/>
+<rect x="22" y="30" width="4" height="4" fill="#5C3A2E"/>
+<!-- Right branch -->
+<rect x="44" y="36" width="4" height="6" fill="#6B4535"/>
+<rect x="48" y="34" width="4" height="4" fill="#5C3A2E"/>
+<rect x="52" y="32" width="4" height="4" fill="#6B4535"/>
+<!-- Upper branch -->
+<rect x="36" y="36" width="4" height="4" fill="#5C3A2E"/>
+<rect x="38" y="32" width="4" height="6" fill="#6B4535"/>
+
+<g class="canopy">
+<!-- ═══ BLOSSOM CANOPY ═══ -->
+<!-- Dense left cluster -->
+<rect x="12" y="22" width="4" height="4" fill="#FF6B8A"/>
+<rect x="16" y="20" width="4" height="4" fill="#FF87A0"/>
+<rect x="16" y="24" width="4" height="4" fill="#E8506E"/>
+<rect x="20" y="18" width="4" height="4" fill="#FFA0B4"/>
+<rect x="20" y="22" width="4" height="4" fill="#FF6B8A"/>
+<rect x="20" y="26" width="4" height="4" fill="#FF87A0"/>
+<rect x="24" y="20" width="4" height="4" fill="#E8506E"/>
+<rect x="24" y="24" width="4" height="4" fill="#FF6B8A"/>
+<rect x="24" y="28" width="4" height="4" fill="#FFA0B4"/>
+<rect x="28" y="22" width="4" height="4" fill="#FF87A0"/>
+<rect x="28" y="26" width="4" height="4" fill="#FF6B8A"/>
+<rect x="12" y="26" width="4" height="4" fill="#FF87A0"/>
+<rect x="16" y="28" width="4" height="4" fill="#FFA0B4"/>
+<!-- Left highlights -->
+<rect x="18" y="22" width="2" height="2" fill="#FFD4DE"/>
+<rect x="22" y="20" width="2" height="2" fill="#FFD4DE"/>
+<rect x="14" y="24" width="2" height="2" fill="#FFD4DE"/>
+<!-- Left shadow -->
+<rect x="14" y="28" width="4" height="2" fill="#D44060"/>
+<rect x="22" y="30" width="4" height="2" fill="#D44060"/>
+
+<!-- Dense center cluster -->
+<rect x="28" y="14" width="4" height="4" fill="#FF6B8A"/>
+<rect x="32" y="12" width="4" height="4" fill="#FF87A0"/>
+<rect x="32" y="16" width="4" height="4" fill="#FFA0B4"/>
+<rect x="36" y="10" width="4" height="4" fill="#FF6B8A"/>
+<rect x="36" y="14" width="4" height="4" fill="#E8506E"/>
+<rect x="36" y="18" width="4" height="4" fill="#FF87A0"/>
+<rect x="40" y="8" width="4" height="4" fill="#FFA0B4"/>
+<rect x="40" y="12" width="4" height="4" fill="#FF6B8A"/>
+<rect x="40" y="16" width="4" height="4" fill="#FF87A0"/>
+<rect x="44" y="10" width="4" height="4" fill="#E8506E"/>
+<rect x="44" y="14" width="4" height="4" fill="#FF6B8A"/>
+<rect x="44" y="18" width="4" height="4" fill="#FFA0B4"/>
+<rect x="48" y="12" width="4" height="4" fill="#FF87A0"/>
+<rect x="48" y="16" width="4" height="4" fill="#FF6B8A"/>
+<rect x="32" y="20" width="4" height="4" fill="#FF6B8A"/>
+<rect x="36" y="22" width="4" height="4" fill="#E8506E"/>
+<rect x="40" y="20" width="4" height="4" fill="#FF87A0"/>
+<rect x="44" y="22" width="4" height="4" fill="#FF6B8A"/>
+<rect x="28" y="18" width="4" height="4" fill="#FF87A0"/>
+<!-- Center highlights -->
+<rect x="38" y="12" width="2" height="2" fill="#FFD4DE"/>
+<rect x="34" y="14" width="2" height="2" fill="#FFD4DE"/>
+<rect x="42" y="10" width="2" height="2" fill="#FFE8EE"/>
+<rect x="46" y="14" width="2" height="2" fill="#FFD4DE"/>
+<rect x="38" y="18" width="2" height="2" fill="#FFE8EE"/>
+<!-- Center shadow -->
+<rect x="30" y="16" width="2" height="4" fill="#D44060"/>
+<rect x="46" y="18" width="2" height="4" fill="#D44060"/>
+
+<!-- Dense right cluster -->
+<rect x="48" y="20" width="4" height="4" fill="#FF6B8A"/>
+<rect x="52" y="18" width="4" height="4" fill="#FF87A0"/>
+<rect x="52" y="22" width="4" height="4" fill="#E8506E"/>
+<rect x="56" y="20" width="4" height="4" fill="#FFA0B4"/>
+<rect x="56" y="24" width="4" height="4" fill="#FF6B8A"/>
+<rect x="60" y="22" width="4" height="4" fill="#FF87A0"/>
+<rect x="60" y="26" width="4" height="4" fill="#FFA0B4"/>
+<rect x="56" y="28" width="4" height="4" fill="#FF87A0"/>
+<rect x="52" y="26" width="4" height="4" fill="#FF6B8A"/>
+<rect x="64" y="24" width="4" height="4" fill="#FF6B8A"/>
+<rect x="48" y="24" width="4" height="4" fill="#FFA0B4"/>
+<!-- Right highlights -->
+<rect x="54" y="20" width="2" height="2" fill="#FFD4DE"/>
+<rect x="58" y="24" width="2" height="2" fill="#FFE8EE"/>
+<rect x="62" y="24" width="2" height="2" fill="#FFD4DE"/>
+<!-- Right shadow -->
+<rect x="58" y="28" width="4" height="2" fill="#D44060"/>
+<rect x="52" y="28" width="4" height="2" fill="#D44060"/>
+</g>
+
+<!-- Falling petals -->
+<g class="fp1"><rect x="18" y="30" width="3" height="3" fill="#FF87A0" opacity=".9"/></g>
+<g class="fp2"><rect x="56" y="22" width="3" height="3" fill="#FFA0B4" opacity=".85"/></g>
+<g class="fp3"><rect x="36" y="26" width="3" height="3" fill="#FF6B8A" opacity=".9"/></g>
+<g class="fp4"><rect x="48" y="18" width="3" height="3" fill="#FF87A0" opacity=".8"/></g>
+<g class="fp5"><rect x="26" y="24" width="3" height="3" fill="#FFA0B4" opacity=".85"/></g>
+</svg>

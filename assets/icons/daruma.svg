@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs><style>
+@keyframes wave{0%,100%{transform:rotate(0)}25%{transform:rotate(-20deg)}75%{transform:rotate(20deg)}}
+@keyframes blink{0%,96%,100%{opacity:1}97%,99%{opacity:0}}
+@keyframes coinShine{0%,100%{opacity:.4}50%{opacity:1}}
+.arm{animation:wave 1s steps(4) infinite;transform-origin:52px 42px}
+.eye{animation:blink 4s steps(1) infinite}.eye2{animation-delay:4.1s}
+.coin{animation:coinShine 2s ease-in-out infinite}
+</style></defs>
+
+<!-- Body -->
+<rect x="22" y="36" width="36" height="28" fill="#F5F0E0"/>
+<rect x="24" y="34" width="32" height="4" fill="#F5F0E0"/>
+<rect x="26" y="32" width="28" height="4" fill="#F5F0E0"/>
+<!-- Body shading -->
+<rect x="22" y="56" width="36" height="6" fill="#E8E0CC"/>
+<rect x="22" y="62" width="36" height="4" fill="#DDD5BC"/>
+<!-- Base -->
+<rect x="20" y="66" width="40" height="6" fill="#D44040"/>
+<rect x="18" y="72" width="44" height="4" fill="#C03030"/>
+<rect x="20" y="76" width="40" height="4" fill="#A02828"/>
+<!-- Base gold trim -->
+<rect x="20" y="66" width="40" height="2" fill="#FFD700" opacity=".5"/>
+
+<!-- Head -->
+<rect x="24" y="18" width="32" height="18" fill="#F5F0E0"/>
+<rect x="26" y="14" width="28" height="6" fill="#F5F0E0"/>
+<!-- Head shading -->
+<rect x="24" y="32" width="32" height="4" fill="#E8E0CC"/>
+
+<!-- Left ear -->
+<rect x="22" y="8" width="8" height="8" fill="#F5F0E0"/>
+<rect x="24" y="6" width="6" height="4" fill="#F5F0E0"/>
+<rect x="24" y="8" width="4" height="4" fill="#FF87A0"/>
+<rect x="26" y="10" width="2" height="2" fill="#FF6B8A"/>
+<!-- Right ear -->
+<rect x="50" y="8" width="8" height="8" fill="#F5F0E0"/>
+<rect x="50" y="6" width="6" height="4" fill="#F5F0E0"/>
+<rect x="52" y="8" width="4" height="4" fill="#FF87A0"/>
+<rect x="52" y="10" width="2" height="2" fill="#FF6B8A"/>
+
+<!-- Face details -->
+<!-- Eyes -->
+<g class="eye"><rect x="30" y="22" width="4" height="4" fill="#1A1A28"/><rect x="31" y="23" width="2" height="2" fill="#FFFFFF" opacity=".6"/></g>
+<g class="eye eye2"><rect x="46" y="22" width="4" height="4" fill="#1A1A28"/><rect x="47" y="23" width="2" height="2" fill="#FFFFFF" opacity=".6"/></g>
+<!-- Nose -->
+<rect x="38" y="26" width="4" height="2" fill="#FF87A0"/>
+<!-- Mouth -->
+<rect x="36" y="28" width="2" height="2" fill="#1A1A28"/>
+<rect x="38" y="30" width="4" height="2" fill="#1A1A28"/>
+<rect x="42" y="28" width="2" height="2" fill="#1A1A28"/>
+<!-- Whiskers -->
+<rect x="22" y="26" width="6" height="1" fill="#8B949E" opacity=".5"/>
+<rect x="22" y="28" width="6" height="1" fill="#8B949E" opacity=".5"/>
+<rect x="52" y="26" width="6" height="1" fill="#8B949E" opacity=".5"/>
+<rect x="52" y="28" width="6" height="1" fill="#8B949E" opacity=".5"/>
+<!-- Cheek blush -->
+<rect x="28" y="28" width="4" height="2" fill="#FF87A0" opacity=".4"/>
+<rect x="48" y="28" width="4" height="2" fill="#FF87A0" opacity=".4"/>
+
+<!-- Collar -->
+<rect x="24" y="34" width="32" height="4" fill="#D44040"/>
+<rect x="26" y="35" width="28" height="2" fill="#A02828"/>
+<!-- Bell -->
+<rect x="36" y="36" width="6" height="6" fill="#FFD700"/>
+<rect x="38" y="38" width="2" height="2" fill="#C0A800"/>
+<rect x="38" y="42" width="2" height="2" fill="#8B6914"/>
+
+<!-- Left arm (static) -->
+<rect x="22" y="38" width="6" height="12" fill="#F5F0E0"/>
+<rect x="20" y="40" width="4" height="8" fill="#E8E0CC"/>
+
+<!-- Right arm (waving!) -->
+<g class="arm">
+<rect x="52" y="36" width="6" height="14" fill="#F5F0E0"/>
+<rect x="56" y="38" width="4" height="10" fill="#E8E0CC"/>
+<rect x="54" y="34" width="6" height="4" fill="#F5F0E0"/>
+<!-- Paw pad -->
+<rect x="54" y="34" width="2" height="2" fill="#FF87A0"/>
+<rect x="56" y="36" width="2" height="2" fill="#FF87A0"/>
+</g>
+
+<!-- Coin -->
+<g class="coin">
+<rect x="28" y="46" width="10" height="10" fill="#FFD700"/>
+<rect x="30" y="48" width="6" height="6" fill="#FFE44D"/>
+<rect x="32" y="49" width="2" height="4" fill="#C0A800"/>
+<rect x="30" y="50" width="6" height="2" fill="#C0A800" opacity=".5"/>
+</g>
+
+<!-- Calico patches -->
+<rect x="26" y="16" width="6" height="4" fill="#FF8C00" opacity=".5"/>
+<rect x="44" y="20" width="6" height="4" fill="#2A2A3D" opacity=".3"/>
+<rect x="24" y="44" width="6" height="6" fill="#FF8C00" opacity=".4"/>
+<rect x="44" y="50" width="8" height="6" fill="#2A2A3D" opacity=".3"/>
+</svg>

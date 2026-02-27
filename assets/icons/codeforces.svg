@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <!-- YELLOW BAR -->
+  <rect x="4" y="16" width="6" height="14" fill="#D4B010"/> <!-- shadow -->
+  <rect x="4" y="16" width="4" height="12" fill="#F5D020"/> <!-- main -->
+  <rect x="4" y="16" width="2" height="12" fill="#FFEE50"/> <!-- left highlight -->
+  <rect x="4" y="16" width="4" height="2" fill="#FFEE50"/> <!-- top highlight -->
+
+  <!-- BLUE BAR -->
+  <rect x="13" y="4" width="6" height="26" fill="#186A9E"/> <!-- shadow -->
+  <rect x="13" y="4" width="4" height="24" fill="#1F8ACB"/> <!-- main -->
+  <rect x="13" y="4" width="2" height="24" fill="#4B9CD3"/> <!-- left highlight -->
+  <rect x="13" y="4" width="4" height="2" fill="#4B9CD3"/> <!-- top highlight -->
+
+  <!-- RED BAR -->
+  <rect x="22" y="10" width="6" height="20" fill="#B22A2B"/> <!-- shadow -->
+  <rect x="22" y="10" width="4" height="18" fill="#EA3A42"/> <!-- main -->
+  <rect x="22" y="10" width="2" height="18" fill="#EF6B6B"/> <!-- left highlight -->
+  <rect x="22" y="10" width="4" height="2" fill="#EF6B6B"/> <!-- top highlight -->
+</svg>

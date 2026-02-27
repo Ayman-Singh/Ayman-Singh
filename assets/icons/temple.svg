@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+<defs><style>
+@keyframes lanternSwing{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes firefly{0%,100%{opacity:0}30%,70%{opacity:1}}
+.ls{animation:lanternSwing 2s ease-in-out infinite;transform-origin:center top}
+.ls2{animation:lanternSwing 2s ease-in-out infinite;animation-delay:1s;transform-origin:center top}
+.ff{animation:firefly 3s ease-in-out infinite}.ff2{animation-delay:1s}.ff3{animation-delay:2s}.ff4{animation-delay:.5s}
+</style></defs>
+
+<!-- Ground / stone path -->
+<rect x="0" y="70" width="80" height="10" fill="#3D4A35"/>
+<rect x="0" y="68" width="80" height="2" fill="#4A5840"/>
+<!-- Stone path -->
+<rect x="28" y="70" width="8" height="4" fill="#6B6B6B"/>
+<rect x="34" y="74" width="6" height="4" fill="#5C5C5C"/>
+<rect x="40" y="70" width="8" height="4" fill="#5C5C5C"/>
+<rect x="32" y="78" width="8" height="2" fill="#6B6B6B"/>
+<rect x="42" y="76" width="6" height="2" fill="#6B6B6B"/>
+
+<!-- Left pillar -->
+<rect x="12" y="22" width="8" height="48" fill="#C03030"/>
+<rect x="10" y="22" width="2" height="48" fill="#A02828"/>
+<rect x="20" y="22" width="2" height="48" fill="#8B2020"/>
+<!-- Pillar base -->
+<rect x="8" y="66" width="16" height="4" fill="#5C5C5C"/>
+<rect x="10" y="64" width="12" height="2" fill="#6B6B6B"/>
+
+<!-- Right pillar -->
+<rect x="60" y="22" width="8" height="48" fill="#C03030"/>
+<rect x="58" y="22" width="2" height="48" fill="#A02828"/>
+<rect x="68" y="22" width="2" height="48" fill="#8B2020"/>
+<!-- Pillar base -->
+<rect x="56" y="66" width="16" height="4" fill="#5C5C5C"/>
+<rect x="58" y="64" width="12" height="2" fill="#6B6B6B"/>
+
+<!-- Lower crossbeam -->
+<rect x="12" y="32" width="56" height="4" fill="#C03030"/>
+<rect x="12" y="30" width="56" height="2" fill="#D44040"/>
+<rect x="12" y="36" width="56" height="2" fill="#8B2020"/>
+
+<!-- Upper crossbeam -->
+<rect x="6" y="18" width="68" height="6" fill="#C03030"/>
+<rect x="4" y="16" width="72" height="4" fill="#D44040"/>
+<rect x="6" y="24" width="68" height="2" fill="#A02828"/>
+<!-- Curved roof ends -->
+<rect x="2" y="14" width="6" height="4" fill="#D44040"/>
+<rect x="0" y="12" width="6" height="4" fill="#C03030"/>
+<rect x="72" y="14" width="6" height="4" fill="#D44040"/>
+<rect x="74" y="12" width="6" height="4" fill="#C03030"/>
+<!-- Roof top cap -->
+<rect x="8" y="14" width="64" height="4" fill="#D44040"/>
+<rect x="10" y="12" width="60" height="4" fill="#E85050"/>
+
+<!-- Top beam decoration -->
+<rect x="34" y="12" width="12" height="4" fill="#FFD700" opacity=".6"/>
+<rect x="36" y="10" width="8" height="2" fill="#FFD700" opacity=".5"/>
+
+<!-- Hanging lanterns -->
+<g class="ls">
+<rect x="24" y="26" width="2" height="6" fill="#6B4028"/>
+<rect x="22" y="32" width="6" height="8" fill="#FF4500"/>
+<rect x="22" y="32" width="6" height="2" fill="#FF6B3A"/>
+<rect x="22" y="38" width="6" height="2" fill="#C03500"/>
+<rect x="24" y="34" width="2" height="4" fill="#FFD700" opacity=".8"/>
+</g>
+<g class="ls2">
+<rect x="54" y="26" width="2" height="6" fill="#6B4028"/>
+<rect x="52" y="32" width="6" height="8" fill="#FF4500"/>
+<rect x="52" y="32" width="6" height="2" fill="#FF6B3A"/>
+<rect x="52" y="38" width="6" height="2" fill="#C03500"/>
+<rect x="54" y="34" width="2" height="4" fill="#FFD700" opacity=".8"/>
+</g>
+
+<!-- Fireflies -->
+<rect x="36" y="45" width="2" height="2" fill="#FFD700" class="ff"/>
+<rect x="44" y="50" width="2" height="2" fill="#ADFF2F" class="ff ff2"/>
+<rect x="30" y="55" width="2" height="2" fill="#FFD700" class="ff ff3"/>
+<rect x="50" y="42" width="2" height="2" fill="#ADFF2F" class="ff ff4"/>
+
+<!-- Shimenawa (sacred rope) -->
+<rect x="18" y="28" width="44" height="2" fill="#C9B99A"/>
+<rect x="28" y="28" width="4" height="4" fill="#F5F0E0"/>
+<rect x="48" y="28" width="4" height="4" fill="#F5F0E0"/>
+<rect x="38" y="28" width="4" height="4" fill="#F5F0E0"/>
+</svg>
