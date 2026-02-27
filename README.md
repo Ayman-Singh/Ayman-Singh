@@ -25,7 +25,9 @@
 
 **Final-year B.Tech (CSE) — IIT Jammu**
 
-I build end-to-end ML systems and practical tools — from experimentation and model training to production demos and systems-level tooling. Focused on **computer vision**, **applied ML**, and **low-level networking (eBPF)**.
+I build end-to-end ML systems and practical tools —
+from experimentation and model training to production demos and systems-level tooling.
+Focused on **computer vision**, **applied ML**, and **low-level networking (eBPF)**.
 
 ```
 > focus_areas
@@ -140,7 +142,9 @@ WhatsApp clone — Go backend, ReactJS frontend. Real-time messaging with full c
 
 **B.Tech, Computer Science & Engineering** — IIT Jammu | Final Year | CGPA: 7.24
 
-**Flipkart Grid 7.0** (2025) — National Semi-finalist · **Inter IIT Tech Meet 13.0** — 16th/23 IITs · **LeetCode Knight** (Top 5%) — 500+ problems
+**Flipkart Grid 7.0** (2025) — National Semi-finalist · **Inter IIT Tech Meet 13.0** — 16th/23 IITs
+
+**LeetCode Knight** (Top 5%) — 500+ problems
 
 <img src="./assets/pixel_divider.svg" width="100%" />
 
