@@ -18,8 +18,7 @@
 
 <img src="./assets/pixel_divider.svg" width="100%" />
 
-<!-- ═══ OVERLAY TABLE ═══ -->
-<table width="100%"><tr><td valign="top" width="100%" background="./assets/petal_overlay.svg">
+
 
 ## <img src="./assets/icons/katana.svg" width="48" height="48" /> About Me
 
@@ -158,6 +157,6 @@ WhatsApp clone — Go backend, ReactJS frontend. Real-time messaging with full c
 
 </div>
 
-</td></tr></table>
+
 
 <img src="./assets/sakura_footer.svg" width="100%" alt="Tokyo Skyline" />
