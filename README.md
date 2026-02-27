@@ -19,7 +19,7 @@
 <img src="./assets/pixel_divider.svg" width="100%" />
 
 <!-- ═══ OVERLAY TABLE ═══ -->
-<table><tr><td valign="top" background="./assets/petal_overlay.svg">
+<table width="100%"><tr><td valign="top" width="100%" background="./assets/petal_overlay.svg">
 
 ## <img src="./assets/icons/katana.svg" width="48" height="48" /> About Me
 
@@ -44,7 +44,7 @@ Focused on **computer vision**, **applied ML**, and **low-level networking (eBPF
 ## <img src="./assets/icons/shuriken.svg" width="48" height="48" /> Featured Projects
 
 <div align="center">
-<table>
+<table width="100%">
 <tr>
 <td width="50%">
 
